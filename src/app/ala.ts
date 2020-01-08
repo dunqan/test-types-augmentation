@@ -1,5 +1,8 @@
-// declare module '@spartacus/core' {
-//   export interface Product {
-//     zuza: string;
-//   }
-// }
+import '@angular/router';
+
+declare module '@angular/router' {
+  interface ExtraOptions {
+    sla: string;
+  }
+}
+
