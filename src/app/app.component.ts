@@ -11,18 +11,10 @@ export class AppComponent {
   title = 'test-types-augmentation';
 }
 
-declare module '@spartacus/core' {
-  export interface Product {
-    zuza: string;
-  }
-}
-
-
 export const c: Product = {
   // code: 'dsdsa',
   zuza: 'dsadsa'
 };
-
 
 export const a: ExtraOptions = {
   enableTracing: true,
